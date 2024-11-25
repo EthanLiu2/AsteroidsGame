@@ -34,4 +34,7 @@ public void keyPressed(){
   if(key=='w'){
   c.accelerate(0.5);
   }
+  if(key=='s'){
+  c.accelerate(-0.5);
+  }
 }
