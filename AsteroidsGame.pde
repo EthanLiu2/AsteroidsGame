@@ -22,6 +22,7 @@ public void draw()
   float distance= dist((float)c.getX(),(float)c.getY(),(float)Rock.get(i).getX(),(float)Rock.get(i).getY());
   if(distance<20){
   Rock.remove(i);
+  i--;
   }
 }
   for(int i=0; i<Rock.size();i++){
